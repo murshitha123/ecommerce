@@ -1,0 +1,55 @@
+2019-02-11 20:08:14 INFO  Log:20 - Opening the Browser and URL
+2019-02-11 20:25:03 INFO  Log:22 - Opening the Browser and URL
+2019-02-11 20:25:11 INFO  Log:22 - Asserting the Hompagetitle
+2019-02-11 20:25:11 INFO  Log:22 - HomePagetitle is displayed as expected
+2019-02-11 20:25:12 INFO  Log:22 - Clicking on Mobilelink on HomePage
+2019-02-11 20:25:14 INFO  Log:22 - Clicked on Mobilelink
+2019-02-11 20:25:15 INFO  Log:22 - Asserting the MobilePagetitle
+2019-02-11 20:25:15 INFO  Log:22 - MobilePagetitle is displayed as expected
+2019-02-11 20:25:17 INFO  Log:22 - Getting the text of the sonyXperiaPrice
+2019-02-11 20:25:17 INFO  Log:22 - Clicking on sonyXperiaLink
+2019-02-11 20:25:20 INFO  Log:22 - sonyXperia Link is clicked
+2019-02-11 20:25:20 INFO  Log:22 - Getting the text of the sonyXperiaPrice
+2019-02-11 20:25:20 INFO  Log:22 - Clicking on Mobilelink on HomePage
+2019-02-11 20:25:21 INFO  Log:22 - Clicked on Mobilelink
+2019-02-11 20:25:21 INFO  Log:22 - Clicking on xperiaAddToCart button
+2019-02-11 20:25:23 INFO  Log:22 - Clearing the text of Qty on Mobile details page
+2019-02-11 20:25:23 INFO  Log:22 - Qty text field is successfully cleared
+2019-02-11 20:25:23 INFO  Log:22 - Text is succesfully entered in the Qty field
+2019-02-11 20:25:26 INFO  Log:22 - Clicking on Mobilelink on HomePage
+2019-02-11 20:25:26 INFO  Log:22 - Clicked on Mobilelink
+2019-02-11 20:26:55 INFO  Log:22 - Opening the Browser and URL
+2019-02-11 20:27:03 INFO  Log:22 - Asserting the Hompagetitle
+2019-02-11 20:27:03 INFO  Log:22 - HomePagetitle is displayed as expected
+2019-02-11 20:27:04 INFO  Log:22 - Clicking on Mobilelink on HomePage
+2019-02-11 20:27:34 ERROR Log:32 - no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='header-nav']/nav[1]/ol[1]/li[1]/a[1]/a"}
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Murshi-PC', ip: '192.168.1.7', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52126}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5), userDataDir=C:\Users\Murshi\AppData\Local\Temp\scoped_dir10676_5339}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=71.0.3578.98, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2625008a9062d8107f003bc6fd638327
+*** Element info: {Using=xpath, value=//div[@id='header-nav']/nav[1]/ol[1]/li[1]/a[1]/a}
+2019-02-11 20:27:34 INFO  Log:22 - Asserting the MobilePagetitle
+2019-02-11 20:30:10 INFO  Log:22 - Opening the Browser and URL
+2019-02-11 20:30:19 INFO  Log:22 - Asserting the Hompagetitle
+2019-02-11 20:30:19 INFO  Log:22 - HomePagetitle is displayed as expected
+2019-02-11 20:30:23 INFO  Log:22 - Clicking on Mobilelink on HomePage
+2019-02-11 20:30:25 INFO  Log:22 - Clicked on Mobilelink
+2019-02-11 20:30:29 INFO  Log:22 - Asserting the MobilePagetitle
+2019-02-11 20:30:29 INFO  Log:22 - MobilePagetitle is displayed as expected
+2019-02-11 20:30:34 INFO  Log:22 - Getting the text of the sonyXperiaPrice
+2019-02-11 20:30:34 INFO  Log:22 - Clicking on sonyXperiaLink
+2019-02-11 20:30:37 INFO  Log:22 - sonyXperia Link is clicked
+2019-02-11 20:30:37 INFO  Log:22 - Getting the text of the sonyXperiaPrice
+2019-02-11 20:30:39 INFO  Log:22 - Clicking on Mobilelink on HomePage
+2019-02-11 20:30:40 INFO  Log:22 - Clicked on Mobilelink
+2019-02-11 20:30:40 INFO  Log:22 - Clicking on xperiaAddToCart button
+2019-02-11 20:30:41 INFO  Log:22 - Clearing the text of Qty on Mobile details page
+2019-02-11 20:30:41 INFO  Log:22 - Qty text field is successfully cleared
+2019-02-11 20:30:41 INFO  Log:22 - Text is succesfully entered in the Qty field
+2019-02-11 20:30:47 INFO  Log:22 - Clicking on Mobilelink on HomePage
+2019-02-11 20:30:48 INFO  Log:22 - Clicked on Mobilelink

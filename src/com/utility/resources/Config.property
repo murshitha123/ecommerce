@@ -1,0 +1,49 @@
+#--For Chrome driver--!
+
+#driver_path=D:/eclipse_workspace/Selenium/chromedriver/chromedriver.exe
+#driver_value=webdriver.chrome.driver
+
+#--For IE driver--!
+driver_path=D:/eclipse_workspace/Selenium/iedriver/IEDriverServer.exe
+driver_value=webdriver.ie.driver
+
+url=http://live.guru99.com/
+excelPath=
+homePageTitle=Home page
+
+#---Web Elements on Home Page---!
+mobile_element_xpath=//div[@id='header-nav']/nav[1]/ol[1]/li[1]/a[1]
+
+
+#--Mobile Page--!
+mobile_page_title=Mobile
+sortby_element_xpath=//select[@title='Sort By']
+visible_element_on_sorting=Name
+
+sony_xperia_price_xpath=//span[@id='product-price-1']/span[1]
+sony_xperia_link_id=product-collection-image-1
+xperia_addToCart_xpath=(//button[@type='button'])[3]
+qty_xpath=//table[@id='shopping-cart-table']/tbody[1]/tr[1]/td[4]/input[1]
+qty=1000
+
+update_xpath=//table[@id='shopping-cart-table']/tbody[1]/tr[1]/td[4]/button[1]
+errorMsg_xpath=//table[@id='shopping-cart-table']/tbody[1]/tr[1]/td[2]/p[1]
+expctedErrorMsg=* The maximum quantity allowed for purchase is 500.
+
+emptyCartBttn_id=empty_cart_button
+emptyCartMsg=//div[@class='page']/div[2]/div[1]/div[1]/div[2]/p[1]
+expctedemptyCartMsg=You have no items in your shopping cart.
+
+sony_xperia_price_detailsscreen_xpath=//div[@class='product-shop']/div[2]/div[1]/span[1]
+Iphone_AddToCompare_xpath=(//a[contains(text(),'Add to Compare')])[1]
+Xperia_AddToCompare_xpath=(//a[contains(text(),'Add to Compare')])[3]
+
+Iphone_Title_xpath=//h2/a[@title='IPhone']
+Xperia_Title_xpath=//h2/a[@title='Sony Xperia']
+
+Compare_xpath=//button[@title='Compare']
+
+pop_up_xpected_heading=Compare Products
+pop_up_actual_heading_xpath=//html[@id='top']/body/div[1]/div[1]/h1
+
+close_popup_window_xpath=//button[@title='Close Window']

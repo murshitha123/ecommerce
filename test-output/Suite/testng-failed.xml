@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Browser" value="chrome"/>
+  <test name="Testing On chrome">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.test.TestCase1"/>
+    </classes>
+  </test> <!-- Testing On chrome -->
+</suite> <!-- Failed suite [Suite] -->

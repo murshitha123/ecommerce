@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[attached detailed report :./Test_Report.html]]>
+    </line>
+    <line>
+      <![CDATA[attached detailed report :./Test_Report.html]]>
+    </line>
+    <line>
+      <![CDATA[attached detailed report :./Test_Report.html]]>
+    </line>
+    <line>
+      <![CDATA[attached detailed report :./Test_Report.html]]>
+    </line>
+    <line>
+      <![CDATA[attached detailed report :./Test_Report.html]]>
+    </line>
+    <line>
+      <![CDATA[attached detailed report :./Test_Report.html]]>
+    </line>
+    <line>
+      <![CDATA[attached detailed report :./Test_Report.html]]>
+    </line>
+    <line>
+      <![CDATA[attached detailed report :./Test_Report.html]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44041" started-at="2019-02-11T15:00:10Z" finished-at="2019-02-11T15:00:54Z">
+    <groups>
+    </groups>
+    <test name="Testing On chrome" duration-ms="44041" started-at="2019-02-11T15:00:10Z" finished-at="2019-02-11T15:00:54Z">
+      <class name="com.test.TestCase1">
+        <test-method status="PASS" signature="reportInitiation()[pri:0, instance:com.test.TestCase1@4c70fda8]" name="reportInitiation" is-config="true" duration-ms="203" started-at="2019-02-11T20:30:10Z" finished-at="2019-02-11T20:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitiation -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.test.TestCase1@4c70fda8]" name="setup" is-config="true" duration-ms="8135" started-at="2019-02-11T20:30:10Z" finished-at="2019-02-11T20:30:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.test.TestCase1@4c70fda8]" name="verifyTitle" duration-ms="40" started-at="2019-02-11T20:30:19Z" finished-at="2019-02-11T20:30:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.TestCase1@4c70fda8]" name="tearDown" is-config="true" duration-ms="4550" started-at="2019-02-11T20:30:19Z" finished-at="2019-02-11T20:30:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitle status=SUCCESS method=TestCase1.verifyTitle()[pri:1, instance:com.test.TestCase1@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[attached detailed report :./Test_Report.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="clickOnMobileMenu()[pri:0, instance:com.test.TestCase1@4c70fda8]" name="clickOnMobileMenu" duration-ms="1926" started-at="2019-02-11T20:30:23Z" depends-on-methods="com.test.TestCase1.verifyTitle" finished-at="2019-02-11T20:30:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnMobileMenu -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.TestCase1@4c70fda8]" name="tearDown" is-config="true" duration-ms="3839" started-at="2019-02-11T20:30:25Z" finished-at="2019-02-11T20:30:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnMobileMenu status=SUCCESS method=TestCase1.clickOnMobileMenu()[pri:0, instance:com.test.TestCase1@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[attached detailed report :./Test_Report.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="mobilePageTitle()[pri:0, instance:com.test.TestCase1@4c70fda8]" name="mobilePageTitle" duration-ms="31" started-at="2019-02-11T20:30:29Z" depends-on-methods="com.test.TestCase1.clickOnMobileMenu" finished-at="2019-02-11T20:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilePageTitle -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.TestCase1@4c70fda8]" name="tearDown" is-config="true" duration-ms="1876" started-at="2019-02-11T20:30:29Z" finished-at="2019-02-11T20:30:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=mobilePageTitle status=SUCCESS method=TestCase1.mobilePageTitle()[pri:0, instance:com.test.TestCase1@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[attached detailed report :./Test_Report.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="productsSortByName()[pri:0, instance:com.test.TestCase1@4c70fda8]" name="productsSortByName" duration-ms="1061" started-at="2019-02-11T20:30:31Z" depends-on-methods="com.test.TestCase1.mobilePageTitle" finished-at="2019-02-11T20:30:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsSortByName -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.TestCase1@4c70fda8]" name="tearDown" is-config="true" duration-ms="1893" started-at="2019-02-11T20:30:32Z" finished-at="2019-02-11T20:30:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productsSortByName status=SUCCESS method=TestCase1.productsSortByName()[pri:0, instance:com.test.TestCase1@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[attached detailed report :./Test_Report.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyXperiaPrice()[pri:0, instance:com.test.TestCase1@4c70fda8]" name="verifyXperiaPrice" duration-ms="2935" started-at="2019-02-11T20:30:34Z" depends-on-methods="com.test.TestCase1.productsSortByName" finished-at="2019-02-11T20:30:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyXperiaPrice -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.TestCase1@4c70fda8]" name="tearDown" is-config="true" duration-ms="1802" started-at="2019-02-11T20:30:37Z" finished-at="2019-02-11T20:30:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyXperiaPrice status=SUCCESS method=TestCase1.verifyXperiaPrice()[pri:0, instance:com.test.TestCase1@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[attached detailed report :./Test_Report.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyQtyUpdateErrMsg()[pri:0, instance:com.test.TestCase1@4c70fda8]" name="verifyQtyUpdateErrMsg" duration-ms="3864" started-at="2019-02-11T20:30:39Z" depends-on-methods="com.test.TestCase1.verifyXperiaPrice" finished-at="2019-02-11T20:30:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQtyUpdateErrMsg -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.TestCase1@4c70fda8]" name="tearDown" is-config="true" duration-ms="1820" started-at="2019-02-11T20:30:42Z" finished-at="2019-02-11T20:30:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyQtyUpdateErrMsg status=SUCCESS method=TestCase1.verifyQtyUpdateErrMsg()[pri:0, instance:com.test.TestCase1@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[attached detailed report :./Test_Report.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="verifyEmptyCartMsg()[pri:0, instance:com.test.TestCase1@4c70fda8]" name="verifyEmptyCartMsg" duration-ms="1012" started-at="2019-02-11T20:30:44Z" depends-on-methods="com.test.TestCase1.verifyQtyUpdateErrMsg" finished-at="2019-02-11T20:30:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyCartMsg -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.TestCase1@4c70fda8]" name="tearDown" is-config="true" duration-ms="1826" started-at="2019-02-11T20:30:45Z" finished-at="2019-02-11T20:30:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmptyCartMsg status=SUCCESS method=TestCase1.verifyEmptyCartMsg()[pri:0, instance:com.test.TestCase1@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[attached detailed report :./Test_Report.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="compareMobiles()[pri:0, instance:com.test.TestCase1@4c70fda8]" name="compareMobiles" duration-ms="4286" started-at="2019-02-11T20:30:47Z" depends-on-methods="com.test.TestCase1.verifyEmptyCartMsg" finished-at="2019-02-11T20:30:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareMobiles -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.test.TestCase1@4c70fda8]" name="tearDown" is-config="true" duration-ms="1913" started-at="2019-02-11T20:30:51Z" finished-at="2019-02-11T20:30:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=compareMobiles status=SUCCESS method=TestCase1.compareMobiles()[pri:0, instance:com.test.TestCase1@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[attached detailed report :./Test_Report.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.TestCase1@4c70fda8]" name="closeBrowser" is-config="true" duration-ms="1001" started-at="2019-02-11T20:30:53Z" finished-at="2019-02-11T20:30:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.test.TestCase1 -->
+    </test> <!-- Testing On chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
